@@ -2,7 +2,7 @@ import React from 'react'
 
 function Frontpage() {
   return (
-    <div>
+    <div className="border border-red-700 max-h-[720px]">
       <div className="items-center text-center">
         <h1 className="text-3xl font-semibold px-3 py-4">Build AI Cloud with Kubernetes & Open Source</h1>
         <p className="text-gray-400">We help build GPU Cloud, modernize applications and infrastructure with<br></br> our expertise in cloud native technologies.</p>
@@ -13,8 +13,8 @@ function Frontpage() {
           <div className="w-[90%] h-80 flex items-center justify-center">
             this is image
           </div>
-          <div className="text-center font-bold">
-            <span>Trusted by leading Companies</span>
+          <div className="text-center font-bold tracking-normal leading-relaxed text-lg">
+            <span>Trusted by leading companies</span>
           </div>
         </div>
       </div>
